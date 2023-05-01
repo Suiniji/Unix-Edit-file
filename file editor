@@ -1,0 +1,24 @@
+//for installing the editor
+# sudo yum install nano         [On CentOS/RHEL]
+# sudo apt-get -y install nano  [On Debian/Ubuntu]
+
+# sudo yum install vim     [On CentOS/RHEL]
+# sudo apt install vim     [On Debian/Ubuntu]
+
+//for creating a file
+tuugii@allmights-virtualbox: $ cat > test.txt
+
+//for entering vi editor
+  //vi editor insert mode: press 'ESC' key followed by 'i' key
+    //save the file and exit editor: press the 'ESC' key, followed by :wq! keys
+tuugii@allmights-virtualbox: $ vi test.txt
+
+//*
+
+//for entering nano editor
+  //to save the file press CTRL+O keys
+    //to exit from the editor press CTRL+X key
+tuugii@allmights-virtualbox: $ nano test.txt
+
+//for executing file
+tuugii@allmights-virtualbox: $ cat test.txt
